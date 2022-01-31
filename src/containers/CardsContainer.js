@@ -10,37 +10,35 @@ import FrontSide from '../components/cards/FrontSide'
 const CardsContainer = ()  => {
     const [isFlipped, setIsFlipped] = useState(false);
     const [cards, setCards] = useState([
-        {id: 1, stat: ""},
-        {id: 1, stat: ""},
-        {id: 2, stat: ""},
-        {id: 2, stat: ""},
-        {id: 3, stat: ""},
-        {id: 3, stat: ""},
-        {id: 4, stat: ""},
-        {id: 4, stat: ""},
-        {id: 5, stat: ""},
-        {id: 5, stat: ""},
-        {id: 6, stat: ""},
-        {id: 6, stat: ""},
-        {id: 7, stat: ""},
-        {id: 7, stat: ""},
-        {id: 8, stat: ""},
-        {id: 8, stat: ""},
-
-
-
-,
+        {id: 1, img: '/strawberry.jpg', stat: ""},
+        {id: 1, img: '/strawberry.jpg', stat: ""},
+        {id: 2, img: '/watermelon.jpg', stat: ""},
+        {id: 2, img: '/watermelon.jpg', stat: ""},
+        {id: 3, img: '/banana.jpg', stat: ""},
+        {id: 3, img: '/banana.jpg', stat: ""},
+        {id: 4, img: '/peach.jpg', stat: ""},
+        {id: 4, img: '/peach.jpg', stat: ""},
+        {id: 5, img: '/orange.jpg', stat: ""},
+        {id: 5, img: '/orange.jpg', stat: ""},
+        {id: 6, img: '/kiwi.jpg', stat: ""},
+        {id: 6, img: '/kiwi.jpg', stat: ""},
+        {id: 7, img: '/apple.jpg', stat: ""},
+        {id: 7, img: '/apple.jpg', stat: ""},
+        {id: 8, img: '/grapes.jpg', stat: ""},
+        {id: 8, img: '/grapes.jpg', stat: ""}
     ])
+   
     const handleClick = () => {
         setIsFlipped(!isFlipped)
     };
             return (
                  <div>
-                    <h1> Welcome to Memory game</h1> 
         
                       <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
                               <div className="cards">
-                                
+                                { cards.map(card => {
+
+                                })}
                                     front
                                     
                                     <button onClick={handleClick}>Click to flip</button>
