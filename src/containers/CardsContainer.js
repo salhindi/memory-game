@@ -9,6 +9,28 @@ import FrontSide from '../components/cards/FrontSide'
 
 const CardsContainer = ()  => {
     const [isFlipped, setIsFlipped] = useState(false);
+    const [cards, setCards] = useState([
+        {id: 1, stat: ""},
+        {id: 1, stat: ""},
+        {id: 2, stat: ""},
+        {id: 2, stat: ""},
+        {id: 3, stat: ""},
+        {id: 3, stat: ""},
+        {id: 4, stat: ""},
+        {id: 4, stat: ""},
+        {id: 5, stat: ""},
+        {id: 5, stat: ""},
+        {id: 6, stat: ""},
+        {id: 6, stat: ""},
+        {id: 7, stat: ""},
+        {id: 7, stat: ""},
+        {id: 8, stat: ""},
+        {id: 8, stat: ""},
+
+
+
+,
+    ])
     const handleClick = () => {
         setIsFlipped(!isFlipped)
     };
