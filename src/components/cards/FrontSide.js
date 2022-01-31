@@ -1,8 +1,14 @@
-const FrontSide = (props) => {
+
+const FrontSide = () => {
+   
+    return(
+        
     <div>    
-        This is the back of the card.
-    <button onClick={this.handleClick}>Click to flip</button>
+      This is the front of the card.
+      
+      <button onClick={this.handleClick}>Click to flip</button>
     </div>
+    )
 
 }
 

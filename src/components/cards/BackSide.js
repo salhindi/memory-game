@@ -1,11 +1,12 @@
 import flowers from './flowers-6803234_960_720.png'
 
-const BackSide = (props) => {
+const BackSide = () => {
+    return(
     <div>    
-        { console.log({flowers}) }
+        {/* { console.log({flowers}) } */}
           This is the front of the card.
-              <button onClick={this.handleClick}>Click to flip</button>
     </div>
+    )
 
 }
 
