@@ -1,0 +1,71 @@
+[33mcommit fd7c5edf4becd2980146d50358512cd6f7b9fdad[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mmemory-game/master[m[33m)[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Feb 6 22:43:11 2022 -0800
+
+    updating card state
+
+[33mcommit ed9af54ebed841aa2bed77271a7a4603c138b153[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Feb 6 22:33:39 2022 -0800
+
+    comparing cards to see if they match
+
+[33mcommit 1d06dd709cc1ea0953ee3b24c420e1a42f1c8e2b[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Feb 6 22:27:13 2022 -0800
+
+    handling use selections and handling choice two or choice one
+
+[33mcommit cbbb3b5d60ea7e509a007c6d7dcc6e413be1c7ff[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Feb 6 22:10:44 2022 -0800
+
+     card css
+
+[33mcommit e394a8064797fd36b6852056c44ad02046c697ff[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Mon Jan 31 00:50:02 2022 -0800
+
+    grid and css added"
+
+[33mcommit bf99ff586ed0138f9a197da085a2aa77e387d0cf[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 23:25:08 2022 -0800
+
+    console.log array of cards
+
+[33mcommit e9f5d7750c5490eae15011d2b95ffd087242806e[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 23:16:06 2022 -0800
+
+    addded 8 fruit images and create cardshuffler
+
+[33mcommit 2f7b5152d15ff8d42bfb5156e25bea214a0189df[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 22:47:57 2022 -0800
+
+    addded 8 fruit images
+
+[33mcommit 649ca8885b555e9a70ae8945d64a2db39db64db4[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 21:50:47 2022 -0800
+
+    adding card flip
+
+[33mcommit 2e298aecd6d3d2853fbc2454a8366cc9f298c248[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 20:43:41 2022 -0800
+
+    adding card flip
+
+[33mcommit 0d22149ef9f97d02eba9c6a9659bf046080ae291[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 19:35:09 2022 -0800
+
+    created conatiner for cards, removed default css and logos, imported container into application
+
+[33mcommit bc390c22ab94e6f6281eabeea594a42b3055112d[m
+Author: salhindi <calisaraalhindi@gmail.com>
+Date:   Sun Jan 30 19:21:10 2022 -0800
+
+    new app
