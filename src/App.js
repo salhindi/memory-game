@@ -4,14 +4,14 @@ import './App.css'
 import Card from './components/Card'
 
 const cardImages = [
-  {"src": '/fruit_images/strawberry.jpg'},
-  {"src": '/fruit_images/watermelon.jpg'},
-  {"src": '/fruit_images/banana.jpg'},
-  {"src": '/fruit_images/peach.jpg'},
-  {"src": '/fruit_images/orange.jpg'},
-  {"src": '/fruit_images/kiwi.jpg'},
-  {"src": '/fruit_images/apple.jpg'},
-  {"src": '/fruit_images/grapes.jpg'}
+  {"src": '/fruit_images/strawberry.jpg', matched: false},
+  {"src": '/fruit_images/watermelon.jpg', matched: false},
+  {"src": '/fruit_images/banana.jpg', matched: false},
+  {"src": '/fruit_images/peach.jpg', matched: false},
+  {"src": '/fruit_images/orange.jpg', matched: false},
+  {"src": '/fruit_images/kiwi.jpg', matched: false},
+  {"src": '/fruit_images/apple.jpg', matched: false},
+  {"src": '/fruit_images/grapes.jpg', matched: false}
 ]
 function App() {
     const [cards, setCards] = useState([])
@@ -34,9 +34,17 @@ function App() {
     useEffect(() => {
       if (choiceOne && choiceTwo) {
         if (choiceOne.src === choiceTwosrc) {
-        console.log('match')
-        }
-        }
+        setCards(prevCards => {
+          return prevCards.map(card => {
+            if (card.src = choiceOne.src) {
+            return {...card, matched: true} 
+            } else {
+              return card
+            }
+          })
+        })
+      }
+        
       }
 
     }, [choiceOne, choiceTwo])
