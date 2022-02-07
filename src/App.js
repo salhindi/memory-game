@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 import Card from './components/Card'
@@ -30,6 +30,16 @@ function App() {
     const handleChoice = (card) => {
        choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
     }
+
+    useEffect(() => {
+      if (choiceOne && choiceTwo) {
+        if (choiceOne.src === choiceTwosrc) {
+        console.log('match')
+        }
+        }
+      }
+
+    }, [choiceOne, choiceTwo])
 
   return (
         <div className="App">
